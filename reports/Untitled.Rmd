@@ -1,0 +1,280 @@
+---
+title: "EDA"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+
+knitr::opts_chunk$set(echo = FALSE, 
+                      warning = FALSE, 
+                      message = FALSE)
+
+```
+
+
+
+```{r}
+
+library(tidymodels)
+library(tidyverse)
+library(lubridate)
+library(scales)
+
+```
+
+
+```{r}
+
+
+df <- read_csv(
+        paste0(here::here(), '/data/train.csv')
+)
+
+```
+
+
+
+```{r}
+
+glimpse(df)
+
+```
+
+
+
+```{r}
+
+ggplot(df, aes(SalePrice)) +
+        geom_histogram(color ='#ffffff') +
+        theme_minimal() + 
+        scale_x_continuous(labels = dollar)
+
+
+ggplot(df, aes(log(SalePrice))) +
+        geom_histogram(color ='#ffffff') +
+        theme_minimal() + 
+        scale_x_continuous(labels = dollar)
+
+```
+
+
+
+```{r}
+
+super_expensive <- df %>% 
+        filter(SalePrice > 600000)
+
+super_cheap <- df %>% 
+        filter(SalePrice < 50000)
+
+```
+
+
+
+```{r}
+
+df %>% 
+        filter(LotArea < 50000) %>% 
+        ggplot(aes(LotArea, SalePrice)) +
+        geom_point() +
+        theme_minimal() + 
+        scale_y_continuous(labels = dollar)
+
+```
+
+
+```{r}
+
+df %>% 
+        # filter(LotArea < 50000) %>% 
+        ggplot(aes(GrLivArea, SalePrice)) +
+        geom_point() +
+        theme_minimal() + 
+        scale_y_continuous(labels = dollar)
+
+
+```
+
+```{r}
+
+df %>% 
+        # filter(LotArea < 50000) %>% 
+        ggplot(aes(Street, SalePrice)) +
+        geom_point() +
+        theme_minimal() + 
+        scale_y_continuous(labels = dollar)
+
+```
+
+```{r}
+
+df %>% 
+        # filter(LotArea < 50000) %>% 
+        ggplot(aes(Neighborhood, SalePrice)) +
+        geom_boxplot() +
+        theme_minimal() + 
+        scale_y_continuous(labels = dollar) + 
+        coord_flip()
+
+```
+
+
+```{r}
+
+
+df %>% 
+        ggplot(aes(KitchenQual, SalePrice)) +
+        geom_point() +
+        theme_minimal() + 
+        scale_y_continuous(labels = dollar) 
+
+
+```
+
+
+```{r}
+
+df %>% 
+        # filter(LotArea < 50000) %>% 
+        ggplot(aes(BldgType, SalePrice)) +
+        geom_boxplot() +
+        theme_minimal() + 
+        scale_y_continuous(labels = dollar) + 
+        coord_flip()
+
+
+```
+
+
+```{r}
+
+df %>% 
+        # filter(LotArea < 50000) %>% 
+        ggplot(aes(YearBuilt, SalePrice, group = YearBuilt)) +
+        geom_boxplot() +
+        theme_minimal() + 
+        scale_y_continuous(labels = dollar)
+
+```
+
+```{r}
+
+df %>% 
+        # filter(LotArea < 50000) %>% 
+        ggplot(aes(OverallQual, SalePrice, group = OverallQual)) +
+        geom_boxplot() +
+        theme_minimal() + 
+        scale_y_continuous(labels = dollar)
+
+
+```
+
+
+```{r}
+
+df %>% 
+        # filter(LotArea < 50000) %>% 
+        ggplot(aes(OverallCond, SalePrice, group = OverallCond)) +
+        geom_boxplot() +
+        theme_minimal() + 
+        scale_y_continuous(labels = dollar)
+
+```
+
+
+
+```{r}
+
+df %>% 
+        # filter(LotArea < 50000) %>% 
+        ggplot(aes(FullBath, SalePrice, group = FullBath)) +
+        geom_boxplot() +
+        theme_minimal() + 
+        scale_y_continuous(labels = dollar)
+
+
+```
+
+
+
+```{r}
+
+df %>% 
+        # filter(LotArea < 50000) %>% 
+        ggplot(aes(RoofStyle, SalePrice, group = RoofStyle)) +
+        geom_boxplot() +
+        theme_minimal() + 
+        scale_y_continuous(labels = dollar)
+
+
+```
+
+
+### Basic Model
+
+The above is a really quick attempt to get to a few variables that look promising. We can adapt and develop more features as we go, but I wanted to get to a basic model quickly and use that to evaluate any added value frrom other features. 
+
+
+```{r}
+
+init_split <- df %>% 
+        initial_split(p = .75)
+
+test <- testing(init_split)
+train <- training(init_split)
+
+```
+
+
+```{r}
+
+library(caret)
+library(yardstick)
+library(randomForest)
+
+fit_lm_one <- train(log(SalePrice) ~ 
+                        FullBath + OverallQual + YearBuilt + GrLivArea + Neighborhood,
+                data = train, 
+                method = 'lm')
+
+
+fit_rf_one <- train(log(SalePrice) ~ 
+                       FullBath + OverallQual + YearBuilt + Neighborhood + GrLivArea,
+                data = train, 
+                method = 'rf')
+
+
+results <- test %>%
+    mutate(SalePrice_log = log(SalePrice),
+           pred_lm_one = predict(fit_lm_one, test),
+           pred_rf_one = predict(fit_rf_one, test))
+
+
+# Evaluate the performance
+metrics(results, truth = SalePrice_log, estimate = pred_lm_one)
+metrics(results, truth = SalePrice_log, estimate = pred_rf_one)
+
+
+results %>%
+        pivot_longer(
+                cols = starts_with('pred'), 
+                names_to = 'method', 
+                values_to = 'pred') %>%
+        ggplot(aes(SalePrice_log, pred)) + 
+        geom_point(size = 1.5, alpha = 0.5) + 
+        geom_abline(lty = 2, color = "gray50") +
+        geom_smooth(method = "lm") + 
+        theme_minimal() + 
+        facet_wrap(~method) +
+        scale_x_continuous(labels = comma) + 
+        scale_y_continuous(labels = comma)
+
+
+
+
+```
+
+
+
+
+

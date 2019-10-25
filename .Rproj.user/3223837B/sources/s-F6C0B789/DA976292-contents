@@ -1,0 +1,46 @@
+library(jsonlite)
+library(tidyr)
+
+t <- fromJSON('pred.json') %>% 
+        mutate(id = row_number())
+
+
+t_range <- t$predictedScore$confidenceRange %>% 
+        mutate(id = row_number()) %>% 
+        rename(upper_act = upper, 
+               lower_act = lower)
+
+
+t_score <- t$predictedScore %>% 
+        mutate(id = row_number()) %>% 
+        rename(predicted = value) %>% 
+        select(id, predicted)
+
+
+t_pct <- t$confidenceIntervalApplied %>% 
+        mutate(id = row_number()) %>% 
+        mutate(upper = upper / 100, 
+                lower = lower / 100) %>% 
+        rename(upper_pct = upper, 
+               lower_pct = lower)
+
+
+
+df <- t %>% 
+        select(id, article) %>% 
+        inner_join(t_score, by = 'id') %>% 
+        inner_join(t_pct, by = 'id') %>% 
+        inner_join(t_range, by = 'id')
+
+
+df <- df %>% 
+        mutate(lower_est = predicted - (predicted * lower_pct), 
+               upper_est = predicted + (predicted * upper_pct)) %>% 
+        mutate(lower_test = lower_act == lower_est, 
+               upper_test = upper_act == upper_est)
+
+
+
+
+
+        

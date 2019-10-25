@@ -1,0 +1,227 @@
+[
+    {
+        "article": "https://www.foxnews.com/politics/gop-lawmakers-in-blasting-secret-impeachment-probe-before-attempting-to-storm-the-proceedings",
+        "predictedScore": {
+            "value": 172722.0,
+            "timestamp": 1571953570058,
+            "confidenceRange": {
+                "upper": 185745.0,
+                "lower": 157707.0
+            }
+        },
+        "confidenceIntervalApplied": {
+            "upper": 7.54,
+            "lower": 27.55
+        }
+    },
+    {
+        "article": "https://www.nbcnews.com/politics/politics-news/justice-department-review-origins-russia-probe-turns-criminal-investigation-n1071731",
+        "predictedScore": {
+            "value": 175000.0,
+            "timestamp": 1572003660000,
+            "confidenceRange": {
+                "upper": 180320.0,
+                "lower": 159876.0
+            }
+        },
+        "confidenceIntervalApplied": {
+            "upper": 3.04,
+            "lower": 19.24
+        }
+    },
+    {
+        "article": "https://www.foxnews.com/politics/john-durham-investigation-fbi-misconduct-criminal-probe",
+        "predictedScore": {
+            "value": 118900.0,
+            "timestamp": 1572022020000,
+            "confidenceRange": {
+                "upper": 122657.0,
+                "lower": 96300.0
+            }
+        },
+        "confidenceIntervalApplied": {
+            "upper": 3.16,
+            "lower": 26.46
+        }
+    },
+    {
+        "article": "https://www.cbssports.com/nfl/news/patriots-reportedly-trade-three-time-pro-bowler-michael-bennett-to-the-cowboys/",
+        "predictedScore": {
+            "value": 97200.0,
+            "timestamp": 1572032460000,
+            "confidenceRange": {
+                "upper": 102157.0,
+                "lower": 94400.0
+            }
+        },
+        "confidenceIntervalApplied": {
+            "upper": 5.1,
+            "lower": 26.61
+        }
+    },
+    {
+        "article": "https://www.nbcnews.com/politics/2020-election/rep-tulsi-gabbard-running-president-won-t-seek-re-election-n1071756",
+        "predictedScore": {
+            "value": 4200.0,
+            "timestamp": 1572006120000,
+            "confidenceRange": {
+                "upper": 4324.0,
+                "lower": 3500.0
+            }
+        },
+        "confidenceIntervalApplied": {
+            "upper": 2.96,
+            "lower": 18.9
+        }
+    },
+    {
+        "article": "https://www.nbcnews.com/politics/2020-election/rep-tulsi-gabbard-running-president-won-t-seek-re-election-n1071756",
+        "predictedScore": {
+            "value": 4200.0,
+            "timestamp": 1572006120000,
+            "confidenceRange": {
+                "upper": 4324.0,
+                "lower": 3500.0
+            }
+        },
+        "confidenceIntervalApplied": {
+            "upper": 2.96,
+            "lower": 18.9
+        }
+    },
+    {
+        "article": "https://www.foxnews.com/us/carolyn-pope-missing-tennessee-mother-body-found-abuse-corpse-charges",
+        "predictedScore": {
+            "value": 3800.0,
+            "timestamp": 1572012960000,
+            "confidenceRange": {
+                "upper": 3904.0,
+                "lower": 3041.0
+            }
+        },
+        "confidenceIntervalApplied": {
+            "upper": 2.74,
+            "lower": 19.98
+        }
+    },
+    {
+        "article": "https://www.wired.com/story/kincade-fire/",
+        "predictedScore": {
+            "value": 761.0,
+            "timestamp": 1572014040000,
+            "confidenceRange": {
+                "upper": 775.0,
+                "lower": 639.0
+            }
+        },
+        "confidenceIntervalApplied": {
+            "upper": 1.81,
+            "lower": 22.75
+        }
+    },
+    {
+        "article": "https://www.latimes.com/california/story/2019-10-24/santa-clarita-valley-tick-fire-evacuation-zones-road-closures-shelters-location",
+        "predictedScore": {
+            "value": 484.0,
+            "timestamp": 1572014580000,
+            "confidenceRange": {
+                "upper": 496.0,
+                "lower": 484.0
+            }
+        },
+        "confidenceIntervalApplied": {
+            "upper": 2.42,
+            "lower": 26.28
+        }
+    },
+    {
+        "article": "https://www.mcall.com/health/mc-hea-measles-quarantine-20191024-6r44pqq4uvfkhdcreoytcc7jga-story.html",
+        "predictedScore": {
+            "value": 94.0,
+            "timestamp": 1572005100000,
+            "confidenceRange": {
+                "upper": 110.0,
+                "lower": 87.0
+            }
+        },
+        "confidenceIntervalApplied": {
+            "upper": 16.67,
+            "lower": 33.33
+        }
+    },
+    {
+        "article": "https://scarletandgame.com/2019/10/24/3-reasons-why-ohio-state-will-beat-wisconsin/",
+        "predictedScore": {
+            "value": 57.0,
+            "timestamp": 1572012180000,
+            "confidenceRange": {
+                "upper": 67.0,
+                "lower": 50.0
+            }
+        },
+        "confidenceIntervalApplied": {
+            "upper": 16.67,
+            "lower": 35.29
+        }
+    },
+    {
+        "article": "https://www.forbes.com/sites/ewanspence/2019/10/24/apple-macos-catalina-supplement-update-new-macbookpro-macbook-imac-installation-problems/",
+        "predictedScore": {
+            "value": 46.0,
+            "timestamp": 1572032580000,
+            "confidenceRange": {
+                "upper": 53.0,
+                "lower": 32.0
+            }
+        },
+        "confidenceIntervalApplied": {
+            "upper": 15.63,
+            "lower": 30.85
+        }
+    },
+    {
+        "article": "https://www.nbcnews.com/politics/politics-news/justice-department-review-origins-russia-probe-turns-criminal-investigation-n1071731",
+        "predictedScore": {
+            "value": 178600.0,
+            "timestamp": 1572008700000,
+            "confidenceRange": {
+                "upper": 183386.0,
+                "lower": 163176.0
+            }
+        },
+        "confidenceIntervalApplied": {
+            "upper": 2.68,
+            "lower": 18.66
+        }
+    },
+    {
+        "article": "https://www.sfchronicle.com/california-wildfires/article/PG-E-says-high-voltage-lines-were-still-on-when-14560113.php",
+        "predictedScore": {
+            "value": 12600.0,
+            "timestamp": 1572040440000,
+            "confidenceRange": {
+                "upper": 13356.0,
+                "lower": 11600.0
+            }
+        },
+        "confidenceIntervalApplied": {
+            "upper": 6.0,
+            "lower": 27.66
+        }
+    },
+    {
+        "article": "https://www.businessinsider.com/aoc-mark-zuckerberg-video-congress-facebook-questioning-2019-10",
+        "predictedScore": {
+            "value": 9600.0,
+            "timestamp": 1572007260000,
+            "confidenceRange": {
+                "upper": 9863.0,
+                "lower": 8100.0
+            }
+        },
+        "confidenceIntervalApplied": {
+            "upper": 2.74,
+            "lower": 19.98
+        }
+    }
+]

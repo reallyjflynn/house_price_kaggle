@@ -1,0 +1,28 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1571913973714.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "51914157",
+    "lastKnownWriteTime" : 1572011640,
+    "last_content_update" : 1572011640649,
+    "path" : "~/learning/house_price/reports/Untitled.Rmd",
+    "project_path" : "reports/Untitled.Rmd",
+    "properties" : {
+        "chunk_output_type" : "console",
+        "cursorPosition" : "27,0",
+        "last_setup_crc32" : "F6C0B7894977c075",
+        "scrollLine" : "1",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

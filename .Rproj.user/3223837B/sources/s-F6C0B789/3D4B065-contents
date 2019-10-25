@@ -1,0 +1,36 @@
+library(googlesheets)
+library(dplyr)
+library(tidyr)
+
+t <- gs_title('Spike User Weekly') %>% 
+        gs_read('Engagement Report Weekly')
+
+
+teams <- gs_title('Selecting teams for rollout of Product Structure, Oct 2019') %>% 
+        gs_read('Team List')
+
+
+t <- t %>% 
+        pivot_longer(
+                cols = starts_with('201'), 
+                names_to = 'week', 
+                values_to = 'sessions')
+
+
+d <- teams %>% 
+        inner_join(t, by = c('CompanyID', 'CompanyName')) %>% 
+        filter(week >= as.Date('2019-09-01')) %>% 
+        filter(week < as.Date('2019-10-01')) %>% 
+        filter(sessions > 0) %>% 
+        group_by(CompanyID, CompanyName) %>% 
+        summarise(
+                RealTimeAlert = sum(RealTimeAlert, na.rm = TRUE), 
+                Panels = sum(Panels, na.rm = TRUE), 
+                ScheduledAlert = sum(ScheduledAlert, na.rm = TRUE), 
+                users = n_distinct(UserID), 
+                sessions = sum(sessions, na.rm = TRUE)
+        )
+
+
+
+

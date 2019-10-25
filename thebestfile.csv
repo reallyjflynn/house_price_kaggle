@@ -1,0 +1,312 @@
+"","CompanyID","CompanyName","RealTimeAlert","Panels","ScheduledAlert","users","sessions"
+"1",3,"SWI swissinfo.ch",0,64,0,1,27
+"2",15,"Kos Media",10,15,0,1,86
+"3",18,"NowThis News",2,710,6,17,306
+"4",21,"Mail Online",69,307,88,5,845
+"5",24,"WeltN24 GmbH",40,145,0,3,240
+"6",38,"Gambit LLC",0,45,0,1,230
+"7",43,"BILD GmbH",5,55,5,3,267
+"8",49,"TV-Novosti - Oficina de representacion en Espana",6,329,0,3,186
+"9",62,"Global News",18,71,7,6,207
+"10",70,"evoke.ie",0,40,0,3,381
+"11",79,"NY Post",0,6,0,1,1
+"12",86,"The Daily Signal",0,5,0,1,40
+"13",87,"The Christian Science Monitor",0,50,0,1,10
+"14",91,"GMA News",0,20,0,1,9
+"15",92,"The Washington Post",28,512,21,29,784
+"16",99,"Times Internet",15,107,0,5,188
+"17",109,"Calle Nuñez De Balboa, 120, 28006 Madrid, ESB87542221",0,17,1,2,97
+"18",112,"Breitbart News Network",10,55,0,4,177
+"19",113,"Newsweek Europe",147,776,56,3,95
+"20",117,"Edelman Creative Newsroom",2,72,11,7,24
+"21",126,"Bites",0,110,0,2,369
+"22",143,"SPIEGEL ONLINE GmbH",0,44,0,3,87
+"23",144,"I Love My Dog So Much",0,848,0,2,95
+"24",146,"The Israel Project",0,68,0,1,64
+"25",147,"blogTO",10,50,10,2,178
+"26",148,"Associated Press",63,856,25,49,916
+"27",149,"Cox Media Group",3,38,0,4,50
+"28",154,"La Vanguardia",0,134,30,2,178
+"29",161,"Mastercard",0,16,0,2,11
+"30",163,"Epoch Times / NTD",0,115,0,1,640
+"31",166,"REBAN SA DE CV",14,696,0,9,314
+"32",167,"Global Notícias - Media Group SA",41,452,177,11,549
+"33",181,"PRISA",49,704,0,9,376
+"34",183,"Burda Hearst Publishing GmbH",6,6,0,1,4
+"35",185,"spin 1038",0,45,0,1,17
+"36",199,"98FM",10,135,0,1,118
+"37",204,"Joint Vantage Limited",1,95,1,2,61
+"38",206,"Newsner",0,22,1,3,42
+"39",207,"Edelman NY",20,131,0,12,58
+"40",212,"Government of Canada",0,45,0,1,88
+"41",213,"INM",8,267,0,5,405
+"42",229,"www.chengkung.com",0,14,0,2,36
+"43",234,"EBC",150,369,15,6,477
+"44",236,"Primedia Broadcasting",8,124,0,3,25
+"45",243,"Condé Nast Italia",76,705,102,12,333
+"46",245,"Lenovo",16,191,0,5,19
+"47",252,"Intel",0,917,3,8,294
+"48",254,"Newstalk",0,65,0,3,288
+"49",255,"The Dodo",0,90,0,3,54
+"50",256,"Storyful",90,355,10,1,23
+"51",258,"Hearst",5,65,5,1,21
+"52",261,"Yahoo Australia",19,485,7,17,514
+"53",262,"Edelman - San Francisco",0,41,0,2,4
+"54",271,"Controversial Times",5,10,0,1,32
+"55",272,"Teneo",48,583,0,6,484
+"56",273,"Conde Nast",15,150,0,1,57
+"57",275,"Raw Story",60,123,0,3,177
+"58",277,"Edelman Japan",0,68,0,1,7
+"59",278,"Grupo La República Publicaciones",40,420,45,6,1397
+"60",279,"EON Inc.",5,120,0,3,31
+"61",283,"Cabinet Office",5,683,15,4,884
+"62",284,"Associated Press",0,20,0,1,57
+"63",285,"RTL Nederland",3,75,6,1,5
+"64",290,"Net NTT Corp.",0,410,0,1,77
+"65",299,"CNBC International",5,50,0,2,55
+"66",306,"Producciones Willvin S.A.",0,16,0,1,2
+"67",320,"MG RTL Deutschland",15,592,5,7,495
+"68",321,"The Walt Disney Company",2,82,6,3,50
+"69",327,"AAP",10,33,0,2,9
+"70",335,"Artsy",11,14,0,2,3
+"71",341,"RT Spanish",0,6,0,1,2
+"72",345,"Dennis publishing",1,6,1,1,1
+"73",346,"Radio Mitre",165,693,25,6,1254
+"74",351,"ctvnews.ca",70,180,0,1,164
+"75",363,"Dose/dose.com",87,390,5,4,148
+"76",369,"Monradio",0,5,0,3,76
+"77",378,"ThinkProgress",0,0,0,1,2
+"78",381,"Walmart",4,44,4,1,17
+"79",384,"Lonely Planet",46,371,0,7,149
+"80",385,"OCS",8,103,0,3,23
+"81",387,"Diario AS",39,321,25,10,734
+"82",396,"Shareably Media, LLC",135,486,10,2,81
+"83",404,"Thrillist",0,132,0,4,74
+"84",407,"Yeah1",0,100,0,3,450
+"85",410,"Temasek",30,90,5,2,50
+"86",415,"National Geographic",10,70,0,1,16
+"87",418,"UNO",73,538,10,4,461
+"88",419,"Golin",10,1541,0,6,289
+"89",421,"Army Marketing Limited",0,24,0,3,77
+"90",422,"News Corp",3,18,3,1,4
+"91",426,"Christian Broadcasting Network, www.cbn.com/cbnnews",19,42,18,2,21
+"92",430,"http://www.inspiremore.com",0,70,0,2,41
+"93",436,"Agora SA/Gazeta.pl",18,129,0,2,153
+"94",437,"www.univision.com/noticias",4,32,0,2,16
+"95",444,"www.hiper.fm",145,545,5,3,426
+"96",445,"Press Association",77,816,21,3,122
+"97",447,"Edelman DC",7,162,3,3,65
+"98",448,"Diply",6,418,2,5,174
+"99",449,"Bite",25,65,0,1,18
+"100",453,"Heimat Werbeagentur",0,209,0,3,42
+"101",458,"IrishCentral",15,404,160,6,214
+"102",460,"Daily Hive",1,36,0,3,87
+"103",461,"Empresa Editora El Comercio",40,339,0,6,1026
+"104",465,"ZDF Digital Medienproduktion",22,34,8,1,29
+"105",467,"Singapore Press Holdings",0,45,0,2,136
+"106",475,"www.tuairisc.ie",25,87,0,2,6
+"107",478,"Keli Network",0,132,0,1,6
+"108",1036,"Ars Divina",0,21,1,1,1
+"109",4015,"TheCount.com",0,75,0,1,379
+"110",4331,"Real News PR",0,0,0,1,66
+"111",5693,"Gregory FCA",83,1163,20,10,368
+"112",6598,"NY Daily News",5,227,0,6,265
+"113",7568,"The Leadership Institute",0,75,0,1,27
+"114",9169,"ABS-CBN Corporation",5,249,0,6,342
+"115",10243,"WGHP",0,12,1,1,2
+"116",18298,"The Canadian Press",2,71,0,3,70
+"117",18765,"Los Angeles Times",0,80,0,3,30
+"118",19154,"ESPN Deportes",12,134,2,4,91
+"119",19186,"The One Seed Communications",20,965,0,2,1040
+"120",21651,"Landan",80,160,80,2,216
+"121",26899,"Obsev Studios",3,205,0,5,265
+"122",27453,"iHeartDogs.com",0,40,0,1,34
+"123",27679,"Futurebytes GmbH & Co. KG",45,205,0,1,112
+"124",29023,"Allison+Partners",9,62,11,7,52
+"125",29229,"Buzz.ie",0,100,0,2,199
+"126",29360,"ARD-aktuell",0,201,0,5,272
+"127",30534,"www.gov.uk",20,549,22,7,154
+"128",30960,"APCO Worldwide",47,271,0,6,98
+"129",32344,"Mindshare NYC",0,282,0,4,26
+"130",33133,"American Military News",11,14,0,1,1
+"131",33174,"Sky.it",5,747,36,6,142
+"132",33545,"ABC Startsiden AS",0,0,0,1,1
+"133",34919,"M Booth",9,194,0,2,57
+"134",35778,"INMOBI",0,620,0,4,520
+"135",35979,"Scribol",88,96,0,1,130
+"136",36304,"Univision Communications, Inc.",3,28,0,2,25
+"137",37330,"Meaww",5,890,0,15,1023
+"138",38392,"iHeartMedia",0,28,0,1,12
+"139",38454,"The Walt Disney Company",30,80,0,1,54
+"140",38491,"Mindshare Unilever",0,57,0,1,6
+"141",38835,"Mindshare Chicago",0,24,0,1,7
+"142",39030,"Hybrid",40,190,30,2,128
+"143",39148,"FAIR",12,52,0,3,39
+"144",39378,"RTS",2,662,0,5,25
+"145",39533,"Celltick",0,32,0,1,11
+"146",39848,"Matt Navarra",30,135,15,1,32
+"147",40383,"GroupM",5,415,0,1,11
+"148",40467,"Zeno Group",0,55,0,1,13
+"149",40487,"Shwemom",20,111,0,5,95
+"150",40583,"Digital Virgo",0,30,0,1,113
+"151",40591,"Instinctif Partners",40,75,35,1,66
+"152",40685,"Citizen Relations",13,67,0,3,39
+"153",40723,"Hearst Italy",65,869,481,3,113
+"154",41447,"Pulzo.com",33,149,0,4,457
+"155",41700,"News Lab of SRF (Swiss Radio and Television)",0,60,0,4,47
+"156",41738,"TravelPulse.com",0,5,0,3,58
+"157",41771,"ASEAN Social Hub",0,30,0,1,1
+"158",41946,"Condé Nast International",0,215,0,2,112
+"159",42018,"theheartysoul.com",20,115,15,1,83
+"160",42077,"La Tercera",16,52,6,2,7
+"161",42298,"Reebok",4,56,0,2,10
+"162",42351,"The Asahi Shimbun",6,110,0,8,189
+"163",42582,"www.tbwa.com.sg",18,96,2,2,12
+"164",43366,"First Draft",0,59,0,5,21
+"165",43381,"AllSocial",0,195,0,4,166
+"166",43463,"PhillyVoice.com",5,172,1,6,208
+"167",43561,"Malecon Media Group SL",0,389,5,6,754
+"168",44321,"www.citigateff.nl",29,62,0,2,308
+"169",44572,"Bomb01",0,10,0,1,77
+"170",44828,"dfe",80,275,95,1,88
+"171",44847,"Intel Corporation UK",0,5,0,1,1
+"172",44991,"Vice Media 2018",0,300,10,2,224
+"173",45193,"MediaCom",0,15,0,4,13
+"174",45261,"Badabun Network",0,25,0,3,63
+"175",45300,"Politicus USA",5,35,0,1,19
+"176",45305,"The Mighty",0,145,0,3,92
+"177",45313,"MKR Agency",15,320,5,1,16
+"178",45494,"Monradio",0,2,0,4,167
+"179",45579,"Zeno Group",98,468,16,8,141
+"180",45697,"Tel Aviv University",0,11,0,1,1
+"181",45787,"Edrington Singapore",0,8,0,1,2
+"182",45842,"Barões Digital Publishing",0,230,15,1,9
+"183",46349,"Skybound",1,35,0,2,11
+"184",46414,"Marriott International",5,228,0,5,124
+"185",46506,"Text100 Singapore",11,35,0,6,51
+"186",46853,"london.gov.uk",32,338,16,10,147
+"187",47157,"ACLU",0,44,0,1,7
+"188",47359,"MilleSoixanteQuatre",12,21,0,9,41
+"189",47373,"mporium group plc",197,229,0,2,18
+"190",47510,"Text100 USA",38,97,8,10,85
+"191",47819,"ogilvy",26,315,0,5,269
+"192",47974,"hudsonpacific.co",9,83,11,4,32
+"193",48003,"3 Monkeys Zeno",10,125,25,1,183
+"194",48182,"WeContent",0,10,0,1,398
+"195",48436,"Trinity Mirror",0,0,0,1,16
+"196",48542,"News Corp Australia",45,270,5,4,299
+"197",48551,"Euronews",43,172,25,4,283
+"198",48576,"Axios",198,493,5,2,141
+"199",48617,"Al Jazeera (English) AJE",15,50,0,1,20
+"200",48629,"Ford Motors",5,350,5,4,163
+"201",48650,"Lippe Taylor",7,116,0,9,89
+"202",48683,"Hasbro",0,35,0,1,18
+"203",48685,"Priorities USA",3,39,0,3,14
+"204",48699,"John Bean Technologies",0,18,0,1,1
+"205",48770,"Media Go (CNN CH)",0,4,0,1,2
+"206",48780,"Ntrepid",5,846,0,9,300
+"207",48786,"Text100 Paris",87,195,3,6,56
+"208",48791,"Ciaopeople",38,503,9,23,721
+"209",48800,"Fremantle Media Netherlands",15,100,10,3,218
+"210",48807,"Toteraz",1,47,0,3,74
+"211",48830,"ABP Digital",0,115,0,4,172
+"212",48831,"Proof",72,1430,51,12,491
+"213",48833,"Changi Airport",5,40,5,1,31
+"214",48877,"OWL-Digital GmbH & Co. KG",0,98,0,2,78
+"215",48880,"Ogilvy Singapore",11,17,0,5,44
+"216",48912,"Blue Lives Matter",10,53,0,2,61
+"217",48919,"NordVPN",0,105,0,2,142
+"218",48949,"AF10 S.r.l.",395,650,15,1,22
+"219",48952,"Mitchell Communications Group",0,49,0,3,60
+"220",48954,"McClatchy Dec 2017",18,325,0,12,713
+"221",48967,"RSI (SRG SSR)",0,93,0,3,20
+"222",48981,"KPMG Comms Team",31,125,19,8,48
+"223",49013,"The Seeker",5,10,0,2,49
+"224",49022,"Text100 Madrid",0,6,3,1,1
+"225",49023,"Text100 Milan",0,6,0,1,5
+"226",49025,"Text100 London",20,65,0,2,7
+"227",49026,"Text100 Munich",18,22,0,2,16
+"228",49027,"Text100 Amsterdam",6,12,5,2,2
+"229",49028,"MSF-Doctors without Borders(Comms)",29,216,44,3,15
+"230",49029,"Text100 Sydney",0,10,0,2,4
+"231",49042,"Text100 Mumbai",5,35,0,1,41
+"232",49045,"Sotheby's",2,44,0,1,5
+"233",49048,"Oracle Singapore",4,348,20,4,60
+"234",49063,"ThirdFloor",55,95,5,2,151
+"235",49072,"PressProgress",0,369,8,3,84
+"236",49095,"GDC Trading Ltd",11,72,0,3,79
+"237",49098,"Ströer : t-online.de",34,423,10,10,292
+"238",49104,"Anheuser Busch InBev",4,172,0,4,20
+"239",49107,"Nobody Media",100,281,0,5,20
+"240",49119,"ABC News Feb282017",16,116,0,4,153
+"241",49137,"NewsGuard",38,167,1,14,96
+"242",49139,"FGV Brazil",0,88,0,1,25
+"243",49141,"Media Capital",28,325,0,5,199
+"244",49153,"Zinc Network (BMI)",0,137,0,6,71
+"245",49171,"Reuters Syndication",0,4,0,1,2
+"246",49177,"MSL Chicago",0,12,6,1,5
+"247",49180,"Edelman for Starbucks",0,235,10,1,277
+"248",49188,"Zeno Group - Constellation Brands",0,65,0,1,50
+"249",49202,"Zeno Group Floater",0,32,0,2,19
+"250",49242,"The ESA",0,9,0,4,12
+"251",49266,"Clyde Group",74,633,34,15,242
+"252",49277,"EGAMI Group",1,158,0,5,12
+"253",49290,"Devries Global USA",0,135,0,2,60
+"254",49293,"Treasury Board of Canada",2,67,0,4,23
+"255",49297,"Forbes.com",2,40,0,5,42
+"256",49309,"Apoyo Comunicación",31,1806,9,37,347
+"257",49317,"Madison Square Garden",21,924,3,9,284
+"258",49324,"Edelman Chicago Media COE Team",14,395,64,15,139
+"259",49327,"Edelman Chicago Health Team",0,33,3,2,16
+"260",49328,"Edelman Chicago COJO Team",0,85,11,3,34
+"261",49331,"High Times",25,115,30,4,150
+"262",49367,"Edelman LA (BJ's Restaurants)",0,65,0,1,9
+"263",49368,"AJ English",35,40,0,1,87
+"264",49378,"Edelman Singapore",11,711,23,14,218
+"265",49379,"Ring Doorbell",0,731,0,9,383
+"266",49381,"AJ+ Español",0,133,0,7,109
+"267",49382,"Al Jazeera Arabic",35,91,25,19,283
+"268",49390,"LifeBlue",1,137,10,2,32
+"269",49397,"Brunswick Group",7,133,0,6,45
+"270",49398,"FH Chicago Team 2018",33,347,6,4,128
+"271",49407,"AJ+ Arabic",0,48,0,1,13
+"272",49427,"Finsbury",6,39,0,2,7
+"273",49457,"TMZ",9,287,0,7,260
+"274",49459,"Dublin City University - Jane",0,39,0,2,113
+"275",49460,"Ketchum US",1,228,0,6,74
+"276",49461,"MediaMatters.org",12,69,0,2,9
+"277",49477,"DigitalBox (2019)",40,91,30,5,125
+"278",49482,"BCW New York",56,312,11,14,489
+"279",49483,"Greenbrier Partners",1,22,0,1,1
+"280",49489,"Discovery Communications",0,132,0,2,13
+"281",49490,"Ketchum UK",47,191,5,5,65
+"282",49495,"FH - SF Office",162,630,0,3,51
+"283",49499,"JTINN",80,230,20,1,256
+"284",49511,"Newshour",21,146,0,5,42
+"285",49517,"iG Corp",5,85,0,2,160
+"286",49523,"Isobar Brasilia",9,549,0,7,420
+"287",49526,"Hive Media",25,325,5,2,63
+"288",49536,"Demaskuok",0,24,2,1,4
+"289",49542,"Memo 98",0,57,0,5,64
+"290",49543,"Glob Sec",0,0,0,1,2
+"291",49547,"ruih@opera.com",0,65,0,1,391
+"292",49553,"Revere",0,28,0,3,36
+"293",49554,"DCMS (Dept Culture Media Sport)",0,5,0,1,1
+"294",49558,"Open Online",0,45,18,4,133
+"295",49570,"Gossip On This",21,54,0,1,11
+"296",49572,"Viacom Velocity",0,36,0,1,1
+"297",49577,"MWW Group",7,79,3,5,29
+"298",49580,"Maverick PR",0,282,0,7,351
+"299",49584,"Samsung",8,182,0,4,153
+"300",49587,"Goldin Solutions",214,293,0,5,43
+"301",49588,"Edelman NY Brand Practice",12,28,0,1,17
+"302",49594,"Lonely Planet Nashville",0,1,0,5,14
+"303",49606,"AARP",0,0,0,2,25
+"304",49617,"Voodoo - Trial",0,22,0,1,5
+"305",49619,"Mediagene Japan",15,77,5,4,92
+"306",49622,"IMDA Singapore",0,0,0,1,2
+"307",49653,"Karma Network, Corp.",5,178,9,4,73
+"308",49654,"Edelman - Portland",0,45,0,3,13
+"309",49661,"FH - Quaker Oats Team",0,253,0,3,74
+"310",49662,"Breakwater Strategy",0,19,0,6,66
+"311",49672,"Edelman NY HP",3,15,0,4,14
